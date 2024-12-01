@@ -1,0 +1,103 @@
+.header{
+   height: 55px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  /*border-bottom: solid;
+  border-bottom-width:1px ;
+   border-bottom-color:rgb(209, 207, 207) ; */
+}
+.left-section{
+    /* background-color: lightblue;
+    width: 150px; */
+    align-items: center;
+    display: flex;
+   
+}
+.middle-section{
+    /* background-color: rgb(179, 179, 54); */
+    flex: 1;
+    margin-left: 70px;
+    margin-right:  35px;
+    max-width: 400px;
+    align-items: center;
+    display: flex;
+}
+.right-section{
+   margin-right: 15px; 
+   width: 150px;
+   align-items: center;
+   display: flex;
+   justify-content:space-between;
+   flex-shrink: 0;
+}
+.mic-button{
+    width: 24px;
+    height:24px ;
+    border-radius: 100px;
+    border-width: 0;
+    margin-left: 10px;
+    background-color: rgb(250, 248, 248);
+
+}
+.search-button{
+    width: 30px;
+    height: 20px;
+    border-width:.7px;
+    margin-left:-2px;
+    border-color: grey;
+  
+}
+.search-bar{
+    flex: 1;
+    
+    border-width: 1px;
+      
+}
+.search.bar::placeholder{
+    font-family: roboto,ariel;
+    font-size: 8px;
+
+    border-color: grey;
+    
+    box-shadow:inset 1px 2px 5px rgb(0,0,0,0.15);
+}
+.upload-icon{
+    width: 19px;
+    margin-right: 10px;
+
+}
+.youtube-apps{
+    width: 19px;
+    margin-right: 10px;
+}
+.notifications-icon{
+    width: 20px;
+    
+}
+.user-picture{
+    width: 20px;
+  
+    border-radius: 20px;
+}
+.notifications-icon-container{
+    position: relative;
+}
+.notifications-count{
+    position: absolute;
+    background-color: rgb(230, 3, 3);
+    font-size: 9px;
+    border-radius: 100px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    top: 0;
+    right: 0;
+}
